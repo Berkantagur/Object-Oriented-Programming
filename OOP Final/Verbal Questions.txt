@@ -1,8 +1,8 @@
-This Pointer
+__This Pointer__
 -> C++ contains a special pointer that is called this. This is a pointer that is called automatically passed to
    any member funcions when it is called, and it is a pointer to the object that generates the call.
 
-Virtual Base Classes
+__Virtual Base Classes__
 Why do we use?
 -> Virtual base classes used to avoid ambiguity in case of a class A is inherited by two or more than one class(es).
    In this case, the child class could have a duplicate sets of members and all of these sets are inherited from same base class.

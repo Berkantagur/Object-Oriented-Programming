@@ -58,6 +58,10 @@ int Course::totalCourses = 0;
 
 int main()
 {
+
+    // Displaying total course number before creating the courses
+    cout << "Total course number before creating the courses: " << Course::getTotalCourses() << endl;
+
     // Creating two courses
     Course OOP("Object Oriented Programming", 4);
     Course DM("Discrete Mathematics", 3);
@@ -71,7 +75,6 @@ int main()
     DM.enrollStudent(20);
     
     // Displaying total course number before and after creating the courses
-    cout << "Total course number before creating the courses: " << Course::getTotalCourses() - 2 << endl;
     cout << "Total course number after creating the courses: " << Course::getTotalCourses() << endl;
     
     // Displaying information about the courses after creating courses
@@ -82,9 +85,9 @@ int main()
 }
 
 // Output
-// Cannot enroll more students. Course is full.
-// Cannot enroll more students. Course is full.
 // Total course number before creating the courses: 0
+// Cannot enroll more students. Course is full.
+// Cannot enroll more students. Course is full.
 // Total course number after creating the courses: 2
 // Course: Object Oriented Programming
 // Credits: 4

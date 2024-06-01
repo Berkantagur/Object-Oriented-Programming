@@ -9,7 +9,7 @@ Bu repo, Çukurova Üniversitesi CEN 201 Object Oriented Programming dersi kapsa
 1. Kodları bilgisayarınıza klonlayın:
 
     ```bash
-    git clone https://github.com/Berkantagur/Object-Oriented_programming.git
+    git clone https://github.com/Berkantagur/Object-Oriented-Programming.git
     ```
 
 2. İlgili lab veya pratik klasörüne gidin:

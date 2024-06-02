@@ -10,7 +10,7 @@ public:
     // Pure virtual function
     virtual void displayInfo()
     {
-        
+
     }
     // Virtual destructor
     Employee()
@@ -40,6 +40,8 @@ int main()
     Engineer::displayengineernumber();
     Manager::displaymanagernumber();
 
+    return 0;
+}
     /*
         OUTPUT:
         Engineer: Hakan, Specialty: Hardware
@@ -47,8 +49,5 @@ int main()
         Engineer: Niyazi, Specialty: Hardware also have managerial role
         Manager: Niyazi has a team with size of: 3
         There is 3 number of engineers of 3 total number personel
-        There is 1 managers of 3 total number personel
+        There is 1managers of 3total number personel
     */
-
-    return 0;
-}

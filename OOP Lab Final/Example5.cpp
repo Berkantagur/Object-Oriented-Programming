@@ -10,7 +10,7 @@ template <typename X> void swapargs(X &a, X &b)
     b = temp;
 }
 //overloadind of the previous template function
-void swapargs(int a, int b)
+void swapargs(int a, float b)
 {
     cout <<"Overloaded swap. Int a: " <<a << " Int b: " << b << endl;
 }

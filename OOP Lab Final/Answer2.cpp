@@ -19,6 +19,7 @@ public:
     const char* what() const noexcept
     {
         cout << "Currency Converter Error!!! " << " Error Code: " << errorCode << endl;
+        
     }
     //function for getting the error string
     const string getErrorString() const noexcept

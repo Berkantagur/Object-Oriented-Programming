@@ -34,5 +34,5 @@ int main()
 // Original i, j:10 20
 // Original x, y:10.1 23.3
 // Overloaded swap. Int a: 10 Int b: 20
-// Swapped i, j:20 10
+// Swapped i, j:10 20
 // Swapped x, y:23.3 10.1
